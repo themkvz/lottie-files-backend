@@ -1,0 +1,11 @@
+node_modules/
+.idea
+.vscode
+*.zip
+*.log
+
+/build/
+/public/*
+!/public/.gitkeep
+
+.env

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",                                /* Specify what module code is generated. */
+    "rootDir": "./src",                                  /* Specify the root folder within your source files. */
+    "outDir": "./build",                                   /* Specify an output folder for all emitted files. */
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "allowJs": true,
+    "maxNodeModuleJsDepth": 10
+  },
+  "include": ["src/**/*", "process-env.d.ts"],
+  "exclude": ["node_modules"],
+}
